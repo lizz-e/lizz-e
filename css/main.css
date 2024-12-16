@@ -83,10 +83,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  /* ------ General styles ------  */
+ /* ------ General styles ------  */
+   body{
+    font-family: "Livvic", sans-serif;
+    font-weight:600;
+    font-size: 1rem;
+    color: #35221c;
+   }
+
+   h1 {
+    font-size: 2rem;
+   }
+
+   h1 nav{
+    font-family: "Itim", cursive;
+   }
+
+   nav{
+    font-size: 1.25rem;
+   }
+   h2 h3{
+    font-family: "Sniglet", system-ui;
+   }
+
   /* ------ nav styles ------  */
-  nav ul {
+  nav ul{
     list-style: none;
+  }
+  a{
+    text-decoration: none;
   }
 
 
