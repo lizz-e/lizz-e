@@ -106,6 +106,31 @@ textarea {
     font-family: "Sniglet", system-ui;
    }
 
+   /* ------------------------------------------------------ */
+   /* header, #hero-area, #projects, #about, #contact */
+
+   /* borders for reference */
+   *{
+    border-color: orange;
+    border-style: dashed;
+   }
+
+   /* flexbox */
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  #hero-area, #projects, #about, #skills-section, #contact, footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+  }
+
+
+
+
+
   /* ------ nav styles ------  */
   nav ul{
     list-style: none;
@@ -114,6 +139,12 @@ textarea {
     text-decoration: none;
   }
 
+  /* margins and padding */
+
+  nav {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
 
 
 /* ==========================================================================
