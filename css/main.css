@@ -107,7 +107,7 @@ textarea {
    }
 
    /* ------------------------------------------------------ */
-   /* header, #hero-area, #projects, #about, #contact */
+ 
 
    /* borders for reference */
    *{
@@ -120,30 +120,59 @@ textarea {
     display: flex;
     justify-content: space-around;
   }
-  #hero-area, #projects, #about, #skills-section, #contact, footer {
+  #hero-area, #projects-section, #about, #skills-section, #contact, footer {
     display: flex;
     justify-content: center;
     text-align: center;
     flex-flow: row wrap;
   }
 
-
-
-
-
   /* ------ nav styles ------  */
   nav ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
   a{
     text-decoration: none;
   }
 
-  /* margins and padding */
+  /* width percentage */
+  .content-wrapper {
+    width: 90%;
+  }
+
+  /* padding */
 
   nav {
     padding-top: 30px;
     padding-bottom: 60px;
+  }
+
+  #hero-area {
+    padding-bottom: 40px;
+  }
+  
+  #projects-section, #about, #skills-section, #contact {
+  padding-top: 40px;
+  }
+  .project img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .profile-pic img{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #about p{
+    padding-bottom: 40px;
+  }
+  
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
 
