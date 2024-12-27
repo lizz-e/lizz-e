@@ -102,11 +102,16 @@ textarea {
    nav{
     font-size: 1.25rem;
    }
+   
    h2 h3 h4{
     font-family: "Sniglet", system-ui;
    }
    span {
     font-weight: bold;
+   }
+
+   .live-web a:hover{
+    color: orange;
    }
 
 /* ------ nav styles ------  */
