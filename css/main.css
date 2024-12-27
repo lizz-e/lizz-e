@@ -105,6 +105,9 @@ textarea {
    h2 h3 h4{
     font-family: "Sniglet", system-ui;
    }
+   span {
+    font-weight: bold;
+   }
 
 /* ------ nav styles ------  */
   nav ul{
