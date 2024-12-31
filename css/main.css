@@ -91,6 +91,24 @@ textarea {
     color: #35221c;
    }
 
+   header, #hero-area, #about, #contact, footer {
+    background-color: #f8edeb;
+   }
+
+   #projects {
+    background-color: whitesmoke;
+   }
+
+   #skills-section {
+    border-color: #fec89a;
+   }
+   #skills-section h2{
+    background-color: #fec89a;
+   }
+   .skills, .tools{
+    background-color: #f9dcc4;
+   }
+
    h1 {
     font-size: 2rem;
    }
@@ -188,6 +206,10 @@ textarea {
   
   #projects-section, #about, #skills-section, #contact {
   padding-top: 40px;
+  }
+
+  #skills-section{
+    padding-bottom: 40px;
   }
   .project img {
     padding-top: 20px;
