@@ -86,7 +86,6 @@ textarea {
  /* ------ General styles ------  */
    body{
     font-family: "Livvic", sans-serif;
-    /* font-weight:600; */
     font-size: 1rem;
     color: #35221c;
    }
@@ -140,6 +139,7 @@ textarea {
     transition: 0.3s;
     padding: 7px;
     border-radius: 20px;
+    font-weight:600;
   }
 
   nav a:hover{ 
@@ -192,8 +192,15 @@ textarea {
   .content-wrapper {
     width: 90%;
   }
+  #hero-area .content-wrapper{
+    width: 100%;
+  }
 
   /* padding */
+  body {
+    padding: 0;
+    margin: 0;
+  }
 
   nav {
     padding-top: 30px;
