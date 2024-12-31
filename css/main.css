@@ -335,7 +335,47 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+  /* *{
+    border-color: orange;
+    border-style: dashed;
+   } */
+
+  /* ---------------------- Desktop Styles ------------------------ */
+  @media only screen and (min-width: 1200px){
+
+    
+    nav{
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 50px;
+    }
+
+    nav ul li a{
+      margin: 10px 20px;
+    }
+
+    #hero-area{
+      padding-bottom: 80px;
+    }
+
+    .projects{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-content: space-between;
+
+    }
+    .project{
+      width: 40%;
+      padding-bottom: 40px;
+    }
+
+    
+  }
+
+
+
+   @media print {
   *,
   *::before,
   *::after {
