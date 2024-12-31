@@ -166,6 +166,10 @@ textarea {
     flex-flow: row wrap;
   }
 
+  #about p{
+    text-align: left;
+  }
+
   /* width percentage */
   .content-wrapper {
     width: 90%;
@@ -192,10 +196,6 @@ textarea {
 
   .profile-pic img{
     padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  #about p{
     padding-bottom: 40px;
   }
   
