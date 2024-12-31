@@ -149,10 +149,10 @@ textarea {
  
 
    /* borders for reference */
-   *{
+   /* *{
     border-color: orange;
     border-style: dashed;
-   }
+   } */
 
    /* flexbox */
   nav ul {
