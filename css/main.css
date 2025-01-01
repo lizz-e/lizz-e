@@ -343,7 +343,7 @@ textarea {
   /* ---------------------- Desktop Styles ------------------------ */
   @media only screen and (min-width: 1200px){
 
-    
+    /* Nav */
     nav{
       display: flex;
       justify-content: flex-end;
@@ -358,20 +358,29 @@ textarea {
       padding-bottom: 80px;
     }
 
+    /* project section */
     .projects{
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
       align-content: space-between;
-
     }
     .project{
       width: 40%;
       padding-bottom: 40px;
     }
-
     
+    /* about */
+    #about img{
+      width: 30%;
+    }
+    #about p{
+      width: 80%;
+      text-align: center;
+      padding-left: 100px;
+    }
   }
+
 
 
 
