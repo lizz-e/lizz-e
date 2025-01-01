@@ -339,7 +339,7 @@ textarea {
   /* ---------------------- Desktop Styles ------------------------ */
   @media only screen and (min-width: 1200px){
     body{
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
 
     /* Nav */
@@ -374,7 +374,7 @@ textarea {
     #about p{
       width: 80%;
       text-align: center;
-      padding-left: 100px;
+      padding-left: 150px;
     }
 
     /* Contact section */
