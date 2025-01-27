@@ -138,16 +138,15 @@ textarea {
 /* ------ nav styles ------  */
 
   nav a{
-    background-color: #fec89a;
-    border: none;
-    transition: 0.3s;
-    padding: 7px;
-    border-radius: 20px;
-    font-weight:600;
+    color: #35221c;
   }
 
-  nav a:hover{ 
-    opacity: 0.7;}
+  nav a:hover{
+    background-color: #fec89a;
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: 600;
+  }
 
   nav ul{
     list-style: none;
@@ -157,6 +156,7 @@ textarea {
   a{
     text-decoration: none;
   }
+
 
 /* responsive imgs */
   img {
