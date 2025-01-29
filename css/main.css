@@ -127,8 +127,12 @@ textarea {
     font-weight: bold;
    }
 
-   .live-web a:hover{
+   .live-web a{
     color: #fec89a;
+   }
+
+   .live-web a:hover{
+    color: #f9dcc4;
    }
 
    .fa-github{
