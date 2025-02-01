@@ -135,6 +135,14 @@ textarea {
     color: #f9dcc4;
    }
 
+   .contact-info a {
+    color: #35221c;
+   }
+
+   .contact-info a:hover {
+    color: #fec89a;
+   }
+
    .fa-github{
     font-size: 1.5rem;
    }
