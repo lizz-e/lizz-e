@@ -381,12 +381,20 @@ textarea {
 
     /* about */
     #about img{
-      width: 30%;
+      width: 50%;
     }
     #about p{
-      width: 80%;
-      text-align: center;
-      padding-left: 150px;
+      width: 100%;
+    }
+
+    .about-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-bottom: 40px;
+    }
+    .about-info{
+      width: 50%;
     }
 
     /* Contact section */
