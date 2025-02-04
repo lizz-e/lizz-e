@@ -228,6 +228,14 @@ textarea {
   padding-top: 40px;
   }
 
+  #about{
+    padding-bottom: 40px;
+  }
+
+  #project-section h2, #about h2{
+    padding-bottom: 40px;
+  }
+
   #skills-section{
     padding-bottom: 40px;
   }
