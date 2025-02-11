@@ -421,7 +421,17 @@ textarea {
   }
 
 
+  /* skills */
+  .s-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 40px;
+  }
 
+  .skills, .tools {
+    width: 45%;
+  }
 
    @media print {
   *,
