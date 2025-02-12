@@ -447,6 +447,13 @@ textarea {
     flex: 1;
   }
 
+  .skills{
+    padding-bottom: 30px;
+  }
+  .tools{
+    padding-bottom: 113px;
+  }
+  
    @media print {
   *,
   *::before,
