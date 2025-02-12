@@ -339,6 +339,105 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+/* ---------------------- Desktop Styles ------------------------ */
+@media only screen and (min-width: 1200px){
+  body{
+    font-size: 1.3rem;
+  }
+
+  /* Nav */
+  nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+  }
+  nav ul li a{
+    margin: 10px 20px;
+  }
+  #hero-area{
+    padding-bottom: 80px;
+  }
+
+  /* project section */
+  .projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .project{
+    width: 40%;
+    padding-bottom: 40px;
+  }
+
+  /* about */
+  #about img{
+    width: 50%;
+  }
+  #about p{
+    width: 100%;
+  }
+
+  .about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 40px;
+  }
+  .about-info{
+    width: 50%;
+  }
+
+  /* Contact section */
+  #contact .content-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+  }
+  .contact-tagline, .contact-info{
+    width: 50%;
+    padding: 50px;
+  }
+  .contact-tagline h2{
+    font-size: 2.5rem;
+  }
+}
+
+
+/* skills */
+.s-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 40px;
+}
+
+.skills, .tools {
+  width: 47%;
+}
+
+.skills-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+.skills-col{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.skills{
+  padding-bottom: 30px;
+}
+.tools{
+  padding-bottom: 113px;
+}
+
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
@@ -355,106 +454,6 @@ textarea {
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
-
-  /* ---------------------- Desktop Styles ------------------------ */
-  @media only screen and (min-width: 1200px){
-    body{
-      font-size: 1.3rem;
-    }
-
-    /* Nav */
-    nav{
-      display: flex;
-      justify-content: flex-end;
-      padding-top: 50px;
-    }
-    nav ul li a{
-      margin: 10px 20px;
-    }
-    #hero-area{
-      padding-bottom: 80px;
-    }
-
-    /* project section */
-    .projects{
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      align-content: space-between;
-    }
-    .project{
-      width: 40%;
-      padding-bottom: 40px;
-    }
-
-    /* about */
-    #about img{
-      width: 50%;
-    }
-    #about p{
-      width: 100%;
-    }
-
-    .about-content{
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      padding-bottom: 40px;
-    }
-    .about-info{
-      width: 50%;
-    }
-
-    /* Contact section */
-    #contact .content-wrapper{
-      display: flex;
-      justify-content: space-around;
-      align-content: flex-start;
-    }
-    .contact-tagline, .contact-info{
-      width: 50%;
-      padding: 50px;
-    }
-    .contact-tagline h2{
-      font-size: 2.5rem;
-    }
-  }
-
-
-  /* skills */
-  .s-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 40px;
-  }
-
-  .skills, .tools {
-    width: 47%;
-  }
-
-  .skills-row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-
-  }
-  .skills-col{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
-
-  .skills{
-    padding-bottom: 30px;
-  }
-  .tools{
-    padding-bottom: 113px;
-  }
-
    @media print {
   *,
   *::before,
