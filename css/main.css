@@ -238,6 +238,7 @@ textarea {
 
   #skills-section{
     padding-bottom: 40px;
+    padding-top: 80px;
   }
   .project img {
     padding-top: 20px;
@@ -453,7 +454,7 @@ textarea {
   .tools{
     padding-bottom: 113px;
   }
-  
+
    @media print {
   *,
   *::before,
