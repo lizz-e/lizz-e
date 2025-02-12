@@ -430,7 +430,21 @@ textarea {
   }
 
   .skills, .tools {
-    width: 45%;
+    width: 47%;
+  }
+
+  .skills-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+  .skills-col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
   }
 
    @media print {
