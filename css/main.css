@@ -200,6 +200,10 @@ textarea {
     flex-flow: row wrap;
   }
 
+  .projects p{
+    text-align: left;
+  }
+
   #about p{
     text-align: left;
   }
