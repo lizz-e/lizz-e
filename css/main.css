@@ -356,6 +356,35 @@ textarea {
     width: 40%;
     padding-bottom: 40px;
   }
+
+  /* skills section*/
+  .s-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 40px;
+  }
+  .skills, .tools {
+    width: 47%;
+  }
+  .skills-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .skills-col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  .skills{
+    padding-bottom: 30px;
+  }
+  .tools{
+    padding-bottom: 113px;
+  }
 }
 
 /* ---------------------- Desktop Styles ------------------------ */
@@ -407,38 +436,6 @@ textarea {
   }
   .contact-tagline h2{
     font-size: 2.5rem;
-  }
-  /* skills */
-  .s-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 40px;
-  }
-
-  .skills, .tools {
-    width: 47%;
-  }
-
-  .skills-row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-
-  }
-  .skills-col{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
-
-  .skills{
-    padding-bottom: 30px;
-  }
-  .tools{
-    padding-bottom: 113px;
   }
 }
 
