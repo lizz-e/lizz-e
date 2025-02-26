@@ -352,14 +352,8 @@ textarea {
    ========================================================================== */
 
 /* ---------------------- Mobile Styles ------------------------ */
-@media only screen and (min-width: 240px){
-
-  /* ========================= */
-   /* *{
-    border-color: orange;
-    border-style: dashed;
-   } */
-
+@media only screen and (max-width: 767px){
+  /* hamburger menu */
   header{
     margin: 0;
     padding: 0;
