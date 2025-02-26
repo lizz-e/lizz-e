@@ -408,7 +408,7 @@ textarea {
     height: 32px;
     width: 32px;
     top: 20px;
-    left: 20px;
+    right: 20px;
     z-index: 5;
     opacity: 0;
     cursor: pointer;
@@ -420,7 +420,7 @@ textarea {
     width: 32px;
     position: absolute;
     top: 17px;
-    left: 20px;
+    right: 20px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -457,22 +457,22 @@ textarea {
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
-    margin-left: -40px;
-    padding-left: 50px;
+    /* margin-right: -40px; */
+    /* padding-right: 50px; */
     transition: transform 0.5s ease-in-out;
     text-align: center;
   }
 
-  .navbar .menu-items li{
+  /* .navbar .menu-items li{
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
     font-weight: 500;
-  }
+  } */
 
   .logo {
     position: absolute;
     top: 5px;
-    right: 15px;
+    left: 15px;
     font-size: 1.2rem;
     color: #35221c;
   }
