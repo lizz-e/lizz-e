@@ -462,15 +462,7 @@ textarea {
     font-size: 1.5rem;
     font-weight: 500;
   } */
-
-  .logo {
-    position: absolute;
-    top: 5px;
-    left: 15px;
-    font-size: 1.2rem;
-    color: #35221c;
-  }
-
+   
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
   }
