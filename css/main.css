@@ -354,28 +354,56 @@ textarea {
 /* ---------------------- Mobile Styles ------------------------ */
 @media only screen and (max-width: 767px){
   /* hamburger menu */
-  header{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
+  /* credits to https://codepen.io/alvarotrigo/pen/wvrzPWL */
+ 
   nav{
     max-width: 1050px;
     width: 90%;
     margin: auto;
   }
 
-  .navbar{
-    width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  .nav-container{
+    display: block;
+    position: relative;
+    height: 20px;
   }
 
-  .nav-container{
+  .navbar .nav-container a{
+    padding: 0.7rem;
+    font-weight: 500;
+  }
+
+  .nav-container .checkbox {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  .nav-container .hamburger-lines .line {
+    background: #35221c;
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .nav-container .hamburger-lines {
+    width: 32px;
+    position: absolute;
+    right: 20px;
+    display: block;
+    height: 26px;
+    top: 17px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    height: 62px;
+    z-index: 2;
   }
 
   .navbar .menu-items {
@@ -383,50 +411,21 @@ textarea {
     background-color: #fec89a;
   }
 
-  .navbar .nav-container a{
-    color: #0e2431;
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding: 0.7rem;
-  }
-
-  .nav-container {
-    display: block;
-    position: relative;
-    height: 60px;
-  }
-
-  .nav-container .checkbox {
-    position: absolute;
-    display: block;
-    height: 32px;
-    width: 32px;
-    top: 20px;
-    right: 20px;
-    z-index: 5;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .nav-container .hamburger-lines {
-    display: block;
-    height: 26px;
-    width: 32px;
-    position: absolute;
-    top: 17px;
-    right: 20px;
-    z-index: 2;
+  .navbar .menu-items{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    text-align: center;
+    height: 100vh;
+    padding-top: 20px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    transition: transform 0.5s ease-in-out;
+    transform: translate(-150%);
   }
 
-  .nav-container .hamburger-lines .line {
-    display: block;
-    height: 4px;
-    width: 100%;
-    border-radius: 10px;
-    background: #35221c;
+  .navbar .menu-items li{
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
   }
 
   .nav-container .hamburger-lines .line1 {
@@ -442,26 +441,6 @@ textarea {
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
   }
-
-  .navbar .menu-items{
-    padding-top: 120px;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-    height: 100vh;
-    width: 100%;
-    transform: translate(-150%);
-    display: flex;
-    flex-direction: column;
-    /* margin-right: -40px; */
-    /* padding-right: 50px; */
-    transition: transform 0.5s ease-in-out;
-    text-align: center;
-  }
-
-  /* .navbar .menu-items li{
-    margin-bottom: 1.2rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-  } */
 
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
