@@ -492,6 +492,10 @@ textarea {
     .about-info{
       width: 50%;
     }
+
+    .about-info .p1{
+      margin: 0;
+    }
     
   /* skills section*/
   .s-section{
