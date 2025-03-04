@@ -493,10 +493,18 @@ textarea {
       width: 50%;
     }
 
+    #about img{
+      width: 60%;
+    }
+
+    #about p{
+      width: 100%;
+    }
+
     .about-info .p1{
       margin: 0;
     }
-    
+
   /* skills section*/
   .s-section{
     display: flex;
@@ -526,14 +534,6 @@ textarea {
     padding-bottom: 113px;
   }
 
-  /* about section */
-  #about img{
-    width: 50%;
-  }
-  #about p{
-    width: 100%;
-  }
-  
 }
 
 /* ---------------------- Desktop Styles ------------------------ */
