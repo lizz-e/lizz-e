@@ -169,7 +169,6 @@ textarea {
     text-decoration: none;
   }
 
-
 /* responsive imgs */
   img {
     width: 100%;
@@ -181,7 +180,6 @@ textarea {
 
    /* ------------------------------------------------------ */
  
-
    /* borders for reference */
    /* *{
     border-color: orange;
@@ -484,6 +482,17 @@ textarea {
     padding-bottom: 40px;
   }
 
+    /* about section */
+    .about-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-bottom: 40px;
+    }
+    .about-info{
+      width: 50%;
+    }
+    
   /* skills section*/
   .s-section{
     display: flex;
@@ -542,16 +551,7 @@ textarea {
     padding-bottom: 80px;
   }
 
-  /* about section */
-  .about-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 40px;
-  }
-  .about-info{
-    width: 50%;
-  }
+
 
   /* Contact section */
   #contact .content-wrapper{
