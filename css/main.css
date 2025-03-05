@@ -555,7 +555,10 @@ textarea {
     padding-bottom: 80px;
   }
 
-
+ /* about section */
+ .about-info .p1{
+  padding-top: 80px;
+}
 
   /* Contact section */
   #contact .content-wrapper{
