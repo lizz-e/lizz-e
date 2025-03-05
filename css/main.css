@@ -234,6 +234,10 @@ textarea {
     padding-bottom: 40px;
   }
 
+  .about-info img{
+    padding-bottom: 20px;
+  }
+
   #project-section h2, #about h2{
     padding-bottom: 40px;
   }
